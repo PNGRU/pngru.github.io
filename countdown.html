@@ -89,6 +89,7 @@
             <div class="row">
                 <div class="page-header"><h1>年越しカウントダウン！！</h1></div>
                 <p>2017年まであと・・・ <strong><big><big><span id="countOutput"></span></big></big></strong>！！</p>
+                <p>(あと<span id="countOutputms"></span>)</p>
             </div>
         </div>
         <footer class="footer">
@@ -126,6 +127,7 @@
 
                         //HTML上に出力
                         document.getElementById("countOutput").innerHTML = _h + "時間" + m + "分" +s + "秒";
+                        document.getElementById("countOutputms").innerHTML = ms + "秒";
 
                         if ((h == 0) && (m == 0) && (s == 0)) {
                             clearInterval(timer);
