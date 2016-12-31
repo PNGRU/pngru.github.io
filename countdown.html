@@ -131,6 +131,9 @@
                         document.getElementById("countOutput").innerHTML = _h + "時間" + m + "分" +s + "秒";
                         document.getElementById("countOutputms").innerHTML = mms + "秒";
 
+                        console.log("あと" + mms + "秒");
+                        console.log("あと" + _h + ":" + m + ":" + s);
+
                         if ((h == 0) && (m == 0) && (s == 0)) {
                             clearInterval(timer);
                             document.getElementById("countOutput").innerHTML = "あけましておめでとう！！";
