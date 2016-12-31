@@ -39,7 +39,7 @@
         </style>
 
         <!-- Meta -->
-        <meta property="og:title" content="About - PNGRU">
+        <meta property="og:title" content="Countdown - PNGRU">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://pngru.github.io">
         <meta property="og:description" content="PNGRUのHP的な存在">
@@ -49,7 +49,7 @@
 
         <!-- Twitter -->
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="About - PNGRU">
+        <meta name="twitter:title" content="Countdown - PNGRU">
         <meta name="twitter:description" content="PNGRUのHP的な存在">
         <meta name="twitter:creator" content="@_PNGRU_">
         <meta name="twitter:image" content="http://minotar.net/helm/PNGRU/100">
@@ -58,7 +58,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>About - PNGRU</title>
+        <title>Countdown - PNGRU</title>
     </head>
     <body>
         <header>
@@ -125,7 +125,7 @@
                         var s = Math.round((ms - h * 3600000 - m * 60000) / 1000);
 
                         //HTML上に出力
-                        document.getElementById("countOutput").innerHTML = daysBetween + "日" +_h + "時間" + m + "分" +s + "秒";
+                        document.getElementById("countOutput").innerHTML = _h + "時間" + m + "分" +s + "秒";
 
                         if ((h == 0) && (m == 0) && (s == 0)) {
                             clearInterval(timer);
