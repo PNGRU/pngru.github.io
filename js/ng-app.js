@@ -10,19 +10,19 @@ var app = angular.module('pngru', ['ngRoute']);
 app.config(function($routeProvider) {
 	$routeProvider
 	.when('/', {
-		templateUrl : '/pages/index.html',
+		templateUrl : '/pages/top.html',
 		controller  : 'indexController',
 		title		: 'HOME'
 	})
 
 		.when('/index', {
-		templateUrl : '/pages/index.html',
+		templateUrl : '/pages/top.html',
 		controller  : 'indexController',
 		title		: 'HOME'
 	})
 
 		.when('/about', {
-			templateUrl : '/pages/index.html',
+			templateUrl : '/pages/about.html',
 			controller  : 'indexController',
 			title		: 'About'
 		})
