@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja" ng-app="pngru">
+<html lang="ja">
 	<head>
 		<!-- CSS読み込み -->
 		<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
@@ -83,7 +83,23 @@
 			</div>
 		</header>
 		<div class="container">
-			<div id="w_body" ng-view></div>
+			<ul class="breadcrumb">
+				<li class="active"><i class="fa fa-home"></i> Home</li>
+			</ul>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="page-header" align="center"><h1>PNGRU's Site</h1></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="page-header"><h2><i class="fa fa-rss"></i> 最近のアクティビティ    <small>2016/12/27～</small></h2></div>
+					<ul>
+						<li>あけましておめでとうございます！！！</li>
+						<li>[2016/12/27] Webサイトを編集。</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 		<footer class="footer">
 			<div class="container">
@@ -98,9 +114,6 @@
 		<!-- JS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script> <!-- Angular JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js"></script> <!-- Angular Route -->
-		<script src="/js/ng-app.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
