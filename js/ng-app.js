@@ -32,6 +32,6 @@ app.config(function($routeProvider) {
 app.run(['$rootScope', '$window',  function($scope, $window) {
 	$scope.$on('$routeChangeSuccess', function(event, currentRoute, previousRoute){
 		$window.scrollTo(0,0);
-		document.title = '幸町第二中学校 - ' + currentRoute.title;
+		document.title = 'PNGRU - ' + currentRoute.title;
 	});
 }]);
