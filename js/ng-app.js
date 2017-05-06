@@ -13,18 +13,24 @@ app.config(function($routeProvider) {
 		templateUrl : '/pages/top.html',
 		controller  : 'indexController',
 		title		: 'HOME'
-	})
+		})
 
 		.when('/index', {
 		templateUrl : '/pages/top.html',
 		controller  : 'indexController',
 		title		: 'HOME'
-	})
+		})
 
 		.when('/about', {
 			templateUrl : '/pages/about.html',
 			controller  : 'indexController',
 			title		: 'About'
+		})
+
+		.when('/server', {
+			templateUrl : '/pages/server.html',
+			controller  : 'indexController',
+			title		: 'サーバー紹介'
 		})
 
 });
