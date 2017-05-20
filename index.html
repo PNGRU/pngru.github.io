@@ -90,8 +90,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
-					<b>&copy; 2016-2017 PNGRU</b><br>
-					Designed by <a href="https://twitter.com/_PNGRU_">PNGRU</a>.
+					<script>
+						document.addEventListener("DOMContentLoaded",function(eve){
+							var date = new Date();
+							var year = date.getFullYear();
+							document.body.innerHTML += "<p><b>$copy; 2016-" + year + " PNGRU</b></p>";
+						},false);
+					</script>
+					<p>Designed by <a href="https://twitter.com/_PNGRU_">PNGRU</a>.</p>
 					</div>
 				</div>
 			</div>
