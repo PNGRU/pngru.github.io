@@ -88,7 +88,7 @@
             </ul>
             <div class="row">
                 <div class="page-header"><h1>JMBans 一周忌カウントダウン</h1></div>
-                <p>JMBansの一周忌(サービス終了日: 2016/10/02)までまであと<strong><big><big><span id="countOutput"></span></big></big></strong>です。</p>
+                <p>JMBansの一周忌(サービス終了日: 2016/10/02 22:00:00)までまであと<strong><big><big><span id="countOutput"></span></big></big></strong>です。</p>
             </div>
         </div>
         <footer class="footer">
@@ -111,7 +111,7 @@
                     //現在の日時取得
                     var nowDate = new Date();
                     //カウントダウンしたい日を設定
-                    var anyDate = new Date("2017/10/01 23:59:59");
+                    var anyDate = new Date("2017/10/02 22:00:00");
                     //日数を計算
                     var daysBetween = Math.ceil((anyDate - nowDate)/(1000*60*60*24));
                     var ms = (anyDate - nowDate);
