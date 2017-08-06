@@ -113,7 +113,7 @@
                     //カウントダウンしたい日を設定
                     var anyDate = new Date("2017/10/02 22:00:00");
                     //日数を計算
-                    var daysBetween = Math.ceil((anyDate - nowDate)/(1000*60*60*24));
+                    var daysBetween = Math.ceil((anyDate - nowDate)/(1000*60*60*24)) - 1;
                     var ms = (anyDate - nowDate);
                     if (ms >= 0) {
                         //時間を取得
