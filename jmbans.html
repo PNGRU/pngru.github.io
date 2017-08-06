@@ -125,7 +125,7 @@
                         var s = Math.round((ms - h * 3600000 - m * 60000) / 1000);
 
                         //HTML上に出力
-                        document.getElementById("countOutput").innerHTML = _h + "時間" + m + "分" +s + "秒";
+                        document.getElementById("countOutput").innerHTML = daysBetween + "日" + _h + "時間" + m + "分" +s + "秒";
                         document.getElementById("countOutputms").innerHTML = mms + "分";
 
                         if ((h == 0) && (m == 0) && (s == 0)) {
