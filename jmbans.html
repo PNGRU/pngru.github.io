@@ -88,7 +88,7 @@
             </ul>
             <div class="row">
                 <div class="page-header"><h1>JMBans 一周忌カウントダウン</h1></div>
-                <p>JMBansの一周忌(サービス終了日: 2016/10/02)までまであと・・・ <strong><big><big><span id="countOutput"></span></big></big></strong>！！</p>
+                <p>JMBansの一周忌(サービス終了日: 2016/10/02)までまであと・・・ <strong><big><big><span id="countOutput"></span></big></big></strong>です。</p>
             </div>
         </div>
         <footer class="footer">
@@ -126,7 +126,6 @@
 
                         //HTML上に出力
                         document.getElementById("countOutput").innerHTML = daysBetween + "日" + _h + "時間" + m + "分" +s + "秒";
-                        document.getElementById("countOutputms").innerHTML = mms + "分";
 
                         if ((h == 0) && (m == 0) && (s == 0)) {
                             clearInterval(timer);
