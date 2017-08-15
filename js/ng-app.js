@@ -32,6 +32,11 @@ app.config(function($routeProvider) {
 			controller  : 'indexController',
 			title		: 'サーバー紹介'
 		})
+		.when('/jmbans', {
+			templateUrl : '/pages/jmbans.html',
+			controller  : 'indexController',
+			title       : 'JMBans一周忌カウントダウン'
+		})
 
 });
 
