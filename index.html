@@ -131,7 +131,32 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js"></script> <!-- Angular Route -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/JQuery-Snowfall/1.7.4/snowfall.jquery.min.js"></script> <!-- SnowFall -->
 		<script src="/js/ng-app.js"></script>
+		<script>
+			$(document).snowfall({
+			    // 雪の量 (数値)
+			    flakeCount : 550,
+			    // z-indexの値
+			    flakeIndex : "888",
+			    // 最小サイズ （数値）
+			    minSize : 5,
+			    // 最大サイズ（数値）
+			    maxSize : 30,
+			    // 最低速度（数値）
+			    minSpeed : 5,
+			    // 最高速度（数値）
+			    maxSpeed : 10,
+			    // 雪の形を丸にする（boolean）
+			    round : true,
+			    // 影をつける（boolean）
+			    shadow : false,
+			    // 要素に積もらせる場合
+			    collection : "w_body",
+			    // オリジナル画像を使用する場合
+			    image : "画像へのパス"
+			});
+		</script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
